@@ -4,30 +4,30 @@ logo:             site-logo.png
 disqus_shortname: sosimpletheme
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              http://mmistakes.github.io/so-simple-theme
+url:              http://jahmelharris.github.io/blog
 
 # Owner/author information
 owner:
-  name:           Michael Rose
+  name:           Jahmel Harris
   avatar:         michael-rose-photo.jpg
-  email:          michael@mademistakes.com
+  email:          test@example.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        "mmistakes"
-  facebook:       "michaelrose"
-  github:         "mmistakes"
-  linkedin:       "michaelrose"
-  instagram:      "mmistakes"
-  tumblr:         "mademistakes"
+  twitter:        ""
+  facebook:       ""
+  github:         ""
+  linkedin:       ""
+  instagram:      ""
+  tumblr:         ""
   stackexchange:  
   flickr:                 
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    "http://plus.google.com/118238196859537351707"
+  #google_plus:    "http://plus.google.com/118238196859537351707"
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   UA-2011187-2
-google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
+#google_analytics:   UA-2011187-2
+#google_verify:      UQj93ERU9zgECodaaXgVpkjrFn9UrDMEzVamacSoQ8Y
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
+#bing_verify:        D81F4C18A6CB3018F64D7C827D953DFD   
 
 # Links to include in top navigation
 # For external links add external: true
