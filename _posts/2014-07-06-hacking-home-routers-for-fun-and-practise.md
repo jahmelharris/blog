@@ -24,8 +24,8 @@ I've attempted this whole "hardware hacking" thing before but with, and I hate t
 The obvious first step is to take the router apart and to take a look at what's going on inside. Once disassembled, we'll hopefully be able to identify debug ports and use these to gain access to something interesting. Luckily for us, these two routers provide fairly easy access to their serial ports; the Netgear requires only a small amount of soldering to add some headers whereas Sky has kindly shipped the router with the headers provided. The first question is, how do we identify these ports...
 
 <figure>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00117.jpg"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00117Thumbnail.jpg"></a>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00114.jpg"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00114Thumbnail.jpg"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00117.jpg"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00117Thumbnail.jpg"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00114.jpg"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00114Thumbnail.jpg"></a>
 	<figcaption>Identifying potential pinouts</figcaption>
 </figure>
 
@@ -40,8 +40,8 @@ Now we have our suspected ports, how do we identify the correct pins? We know wh
 Now we only have two more pins to go. The *correct* way to do this is to attach a logic analyser or oscilloscope to the pins and look at the data coming out but honestly, I just guess. 50% chance of getting it correct after all.
 
 <figure>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00120.jpg"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00120Thumbnail.jpg"></a>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00122.jpg"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00122Thumbnail.jpg"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00120.jpg"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00120Thumbnail.jpg"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00122.jpg"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140208-00122Thumbnail.jpg"></a>
 	<figcaption>Identifying Power and Ground</figcaption>
 </figure>
 
@@ -51,8 +51,8 @@ The final step is to check the voltage across the pins. Power up the router and 
 Connect this to your computer as per your preference (as mentioned, I connected mine to a Raspberry Pi, then connected to the Pi from my PC using SSH), set the correct baudrate etc (in these cases 115200, 8n1), power up the device and (assuming you have Rx and Tx the right way round) BOOM, shell :)
 
 <figure>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140218-00131.jpg"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140218-00131Thumbnail.jpg"></a>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyRouterSerial.png"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyRouterSerialThumbnail.png"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140218-00131.jpg"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/IMG-20140218-00131Thumbnail.jpg"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyRouterSerial.png"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyRouterSerialThumbnail.png"></a>
 	<figcaption>Getting a shell</figcaption>
 </figure>
 
@@ -61,8 +61,8 @@ One interesting thing I noticed is that the netgear won't drop you straight into
 Incidentally, the correct pinout is:
 
 <figure>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyPinout.jpg"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyPinoutThumbnail.jpg"></a>
-	<a href="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/netgearPinout.jpg"><img src="/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/netgearPinoutThumbnail.jpg"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyPinout.jpg"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/skyPinoutThumbnail.jpg"></a>
+	<a href="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/netgearPinout.jpg"><img src="/blog/images/posts/2014-07-06-hacking-home-routers-for-fun-and-practise/netgearPinoutThumbnail.jpg"></a>
 	<figcaption>Identifying pinouts</figcaption>
 </figure>
 
