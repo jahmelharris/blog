@@ -4,8 +4,7 @@ logo:             site-logo.png
 disqus_shortname: sosimpletheme
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-#url:              http://jahmelharris.github.io/blog
-url:              http://localhost:4000
+url:              http://jahmelharris.github.io/blog
 
 # Owner/author information
 owner:
