@@ -5,8 +5,8 @@ description: "In this post, I discuss some of the initial steps required when ha
 category: articles
 tags: [hardware, router, UART, hacking]
 modified: 2014-07-06
-comments: true
-share: true
+comments: false
+share: false
 ---
 
 I've attempted this whole "hardware hacking" thing before but with, and I hate to admit it, limited success. As a Software Guy (tm) I tend to be way more comfortable reversing a binary than following the tracks on a chip and it's for that very reason that I decided to take apart a few old home routers. The end goal, as always, is and see what kind of access can be gained and ideally get access to some kind of shell with root privileges. Where possible, i've tried to not turn to online resources as this is more a learning exercise than any serious research. One cool thing I discovered is that the Raspberry Pi can interface with TTL devices using the GPIO pins meaning I didnt have to purchase any extra equipment for this. TTL is the serial interface used by a lot of embedded devices and consists of four pins - Transmit, Receive, Power and Ground (or Tx, Rx, Vcc and Gnd) and requires either a USB to TTL breakout cable, Bus Pirate (Raspberry Pi!) etc.

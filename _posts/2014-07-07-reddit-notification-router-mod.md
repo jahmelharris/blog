@@ -5,8 +5,8 @@ description: "Modifying a router to notify me of Reddit PMs"
 category: articles
 tags: [hardware, router, reddit, shell script]
 modified: 2014-07-06
-comments: true
-share: true
+comments: false
+share: false
 ---
 
 Reddit PM Notification
