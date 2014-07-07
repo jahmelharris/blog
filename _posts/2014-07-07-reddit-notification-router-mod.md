@@ -52,20 +52,15 @@ I found that setting port 4 on/off would restart and reset all router setting. B
 	<figcaption>Shows inside the case and where the spare output pin is located</figcaption>
 </figure>
 
-
-Shows inside the case and where the spare output pin is located
-
 <figure>
 	<a href="/blog/images/posts/2014-07-07-reddit-notification-router-mod/2.JPG"><img src="/blog/images/posts/2014-07-07-reddit-notification-router-mod/2.JPG"></a>
 	<figcaption>Close up of my terrible soldering job</figcaption>
 </figure>
-
-Close up of my terrible soldering job
 
 <figure>
 	<a href="/blog/images/posts/2014-07-07-reddit-notification-router-mod/3.JPG"><img src="/blog/images/posts/2014-07-07-reddit-notification-router-mod/3.JPG"></a>
 	<figcaption>Back together</figcaption>
 </figure>
 
-Back together
+
 
