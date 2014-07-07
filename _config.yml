@@ -4,7 +4,7 @@ logo:             site-logo.png
 disqus_shortname: sosimpletheme
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:              http://jahmelharris.github.io/blog
+url:      	  http://jahmelharris.github.io/blog
 
 # Owner/author information
 owner:
@@ -12,14 +12,14 @@ owner:
   avatar:         jahmel-harris-photo.jpg
   email:          test@example.com
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        ""
-  facebook:       ""
-  github:         ""
+  #twitter:        ""
+  #facebook:       ""
+  #github:         ""
   linkedin:       ""
-  instagram:      ""
-  tumblr:         ""
-  stackexchange:  
-  flickr:                 
+  #instagram:      ""
+  #tumblr:         ""
+  #stackexchange:  
+  #flickr:                 
   # For Google Authorship https://plus.google.com/authorship
   #google_plus:    "http://plus.google.com/118238196859537351707"
 

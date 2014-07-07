@@ -3,7 +3,7 @@ layout: post
 title: "Hacking home routers for fun and practise"
 description: "In this post, I discuss some of the initial steps required when hardware hacking."
 category: articles
-tags: [sample post, readability]
+tags: [hardware, router, UART, hacking]
 modified: 2014-07-06
 comments: true
 share: true
