@@ -1,15 +1,15 @@
 title:            Jahmel Harris
-description:      Hacking is what I do
-logo:             site-logo.png
+description:      Security Consultant by day, hacker by night
+#logo:             site-logo.png
 disqus_shortname: sosimpletheme
 search:           true
 #Comment out url when working locally to resolve base urls correctly
-url:      	  http://jahmelharris.github.io/blog
-
+#url:      	  http://jahmelharris.github.io/blog
+url:		http://127.0.0.1:4000/
 # Owner/author information
 owner:
   name:           Jahmel Harris
-  avatar:         jahmel-harris-photo.jpg
+  #avatar:         jahmel_harris.jpg
   email:          test@example.com
   # Social networking links used in footer. Update and remove as you like.
   #twitter:        ""
