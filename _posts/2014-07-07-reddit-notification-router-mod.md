@@ -48,17 +48,17 @@ Note: Enable will turn the LED off, disable will turn the LED on
 I found that setting port 4 on/off would restart and reset all router setting. Be warned.
 
 <figure>
-	<a href="images/posts/2014-07-07-reddit-notification-router-mod/1.JPG"><img src="images/posts/2014-07-07-reddit-notification-router-mod/1.JPG"></a>
+	<a href="/images/posts/2014-07-07-reddit-notification-router-mod/1.JPG"><img src="/images/posts/2014-07-07-reddit-notification-router-mod/1.JPG"></a>
 	<figcaption>Shows inside the case and where the spare output pin is located</figcaption>
 </figure>
 
 <figure>
-	<a href="images/posts/2014-07-07-reddit-notification-router-mod/2.JPG"><img src="images/posts/2014-07-07-reddit-notification-router-mod/2.JPG"></a>
+	<a href="/images/posts/2014-07-07-reddit-notification-router-mod/2.JPG"><img src="/images/posts/2014-07-07-reddit-notification-router-mod/2.JPG"></a>
 	<figcaption>Close up of my terrible soldering job</figcaption>
 </figure>
 
 <figure>
-	<a href="images/posts/2014-07-07-reddit-notification-router-mod/3.JPG"><img src="images/posts/2014-07-07-reddit-notification-router-mod/3.JPG"></a>
+	<a href="/images/posts/2014-07-07-reddit-notification-router-mod/3.JPG"><img src="/images/posts/2014-07-07-reddit-notification-router-mod/3.JPG"></a>
 	<figcaption>Back together</figcaption>
 </figure>
 
