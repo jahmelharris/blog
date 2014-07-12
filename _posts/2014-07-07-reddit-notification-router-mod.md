@@ -9,16 +9,13 @@ comments: false
 share: false
 ---
 
-Reddit PM Notification
-
 I wanted to be notified of reddit PMs when all computers were off. Unfortuantly I don't have a phone which can subscribe to RSS feeds so the solution was to create a couple of (quick and dirty) shell scripts which will blink a LED on a modified Buffalo WHR-G125 router running Tomato firmware.
 
 Soldering is required to attach an LED to an unused output pin. If hardware hacking isn't your strong point (god knows it's not mine) you should be able to hijack one of the existing LEDs, such as DIAG or ROUTER.
 
 After installation/modification you should have a LED which will flash at one second intervals when a reddit PM arrives and continue flashing until the message is read.
-Installation
 
-Get and install Tomato firmware on the router. Even if you don't want to hack your router, Tomato is an excellent replacement firmware.
+First, get and install Tomato firmware on the router. Even if you don't want to hack your router, Tomato is an excellent replacement firmware.
 
 Create a JFFS partition on the router (this can be done via the web interface) and telnet into the router. The default username/password is root:admin
 
@@ -28,7 +25,7 @@ cd /jffs
 //Either put them on a http server and wget them or start vi and copy/paste files
 {% endhighlight %}
 
-Add your json new message url to the checkNewRedditMessage.sh script (tomato comes with vi)
+Add your json new message url to the checkNewRedditMessage.sh <a href="https://github.com/jahmelharris/reddit-notification-shell-script">script</a> (tomato comes with vi)
 
 Add the following Init Script (in the web interface)
 
