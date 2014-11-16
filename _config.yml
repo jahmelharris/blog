@@ -10,12 +10,12 @@ url:      	  http://blog.digitalinterruption.com
 owner:
   name:           Jahmel Harris
   #avatar:         jahmel_harris.jpg
-  email:          test@example.com
+  email:          jahmel@digitalinterruption.com
   # Social networking links used in footer. Update and remove as you like.
-  #twitter:        ""
+  twitter:        "JayHarris_Sec"
   #facebook:       ""
-  #github:         ""
-  linkedin:       ""
+  github:         "jahmelharris"
+  linkedin:       "jahmelharris"
   #instagram:      ""
   #tumblr:         ""
   #stackexchange:  
